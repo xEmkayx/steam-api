@@ -5,7 +5,8 @@ import (
 	"encoding/xml"
 	"fmt"
 	"io"
-	"steam-api/pkg/steamclient/config"
+
+	"github.com/xemkayx/steam-api/pkg/steamclient/config"
 )
 
 const apiKeyErrorMessage = "you have to specify an API-key to call this endpoint"

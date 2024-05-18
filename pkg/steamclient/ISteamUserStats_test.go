@@ -6,10 +6,11 @@ import (
 	"net/http/httptest"
 	"net/url"
 	"reflect"
-	"steam-api/pkg/steamclient/config"
-	model "steam-api/pkg/steamclient/model/ISteamUserStats"
 	"strconv"
 	"testing"
+
+	"github.com/xemkayx/steam-api/pkg/steamclient/config"
+	model "github.com/xemkayx/steam-api/pkg/steamclient/model/ISteamUserStats"
 
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"
