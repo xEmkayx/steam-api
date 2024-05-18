@@ -27,9 +27,9 @@ All endpoints are callable on a variable of the Client struct:
 
 Here, you need to specify a (customizable) HTTP client, which is used to send the requests, and an API key. You can obtain an API key by following Valve's documentation: https://steamcommunity.com/dev
 
-Some requests don't explicitly require a key. If you only want to call such endpoints, you can create a client without an ID:
+Some requests don't explicitly require a key. If you only want to call such endpoints, you can create a client without a key:
 ```go
-    client := steamclient.NewClientWithoutId(httpClient)
+    client := steamclient.NewClientWithoutKey(httpClient)
 ```
 
 Calling an Endpoint
