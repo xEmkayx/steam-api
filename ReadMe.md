@@ -1,9 +1,17 @@
 # Steam-API for Go
-<!-- [![Build Status](https://travis-ci.com/xEmkayx/steam-api.svg?branch=main)](https://travis-ci.com/xEmkayx/steam-api) -->
-[![Coverage Status](https://coveralls.io/repos/github/xEmkayx/steam-api/badge.svg?branch=master)](https://coveralls.io/github/xEmkayx/steam-api?branch=master)
+
+![Go Version](https://img.shields.io/github/go-mod/go-version/xEmkayx/steam-api)
+![GitHub issues](https://img.shields.io/github/issues/xEmkayx/steam-api)
+![code size](https://img.shields.io/github/languages/code-size/xEmkayx/steam-api)
+
 [![Go Report Card](https://goreportcard.com/badge/github.com/xEmkayx/steam-api)](https://goreportcard.com/report/github.com/xEmkayx/steam-api)
+[![Coverage Status](https://coveralls.io/repos/github/xEmkayx/steam-api/badge.svg?branch=master)](https://coveralls.io/github/xEmkayx/steam-api?branch=master)
 [![GoDoc](https://godoc.org/github.com/xEmkayx/steam-api?status.svg)](https://godoc.org/github.com/xEmkayx/steam-api)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<!-- todo: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
+![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=:xEmkayx/:steam-api)
+![Staticcheck](https://img.shields.io/badge/static%20check-passing-brightgreen) 
+[![Maintainability](https://api.codeclimate.com/v1/badges/YOUR-BADGE-ID-HERE/maintainability)](https://codeclimate.com/github/xEmkayx/steam-api/maintainability)
 
 This API aims to be the most comprehensive API for Steam in Go. It aims to provide all the endpoints found in https://steamapi.xpaw.me/
 
