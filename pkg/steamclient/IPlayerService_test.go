@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"net/http"
 	"reflect"
-	"steam-api/pkg/steamclient/config"
-	model "steam-api/pkg/steamclient/model/IPlayerService"
 	"strconv"
 	"testing"
+
+	"github.com/xemkayx/steam-api/pkg/steamclient/config"
+	model "github.com/xemkayx/steam-api/pkg/steamclient/model/IPlayerService"
 
 	"github.com/jarcoal/httpmock"
 	"github.com/stretchr/testify/assert"

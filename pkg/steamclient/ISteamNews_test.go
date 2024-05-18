@@ -3,10 +3,11 @@ package steamclient
 import (
 	"net/http"
 	"reflect"
-	"steam-api/pkg/steamclient/config"
-	model "steam-api/pkg/steamclient/model/ISteamNews"
 	"strconv"
 	"testing"
+
+	"github.com/xemkayx/steam-api/pkg/steamclient/config"
+	model "github.com/xemkayx/steam-api/pkg/steamclient/model/ISteamNews"
 
 	"github.com/jarcoal/httpmock"
 )

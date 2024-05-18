@@ -3,7 +3,8 @@ package urlhelper
 import (
 	"fmt"
 	"net/url"
-	"steam-api/pkg/steamclient/constant"
+
+	"github.com/xemkayx/steam-api/pkg/steamclient/constant"
 )
 
 type VersionedURLEndpoint struct {

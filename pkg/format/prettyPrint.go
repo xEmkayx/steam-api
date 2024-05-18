@@ -4,7 +4,8 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"steam-api/pkg/steamclient/config"
+
+	"github.com/xemkayx/steam-api/pkg/steamclient/config"
 )
 
 // todo: pretty print for vdf

@@ -6,10 +6,11 @@ import (
 	"fmt"
 	"log"
 	"net/url"
-	urlHelper "steam-api/internal/urlHelper"
-	"steam-api/pkg/steamclient/config"
-	model "steam-api/pkg/steamclient/model/IPlayerService"
 	"strconv"
+
+	urlHelper "github.com/xemkayx/steam-api/internal/urlHelper"
+	"github.com/xemkayx/steam-api/pkg/steamclient/config"
+	model "github.com/xemkayx/steam-api/pkg/steamclient/model/IPlayerService"
 )
 
 const (
