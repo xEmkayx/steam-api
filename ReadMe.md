@@ -1,8 +1,8 @@
 # Steam-API for Go
-[![Build Status](https://travis-ci.com/username/repository.svg?branch=main)](https://travis-ci.com/username/repository)
-[![Coverage Status](https://coveralls.io/repos/github/username/repository/badge.svg?branch=main)](https://coveralls.io/github/xEmkayx/steam-api?branch=main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/username/repository)](https://goreportcard.com/report/github.com/xEmkayx/steam-api)
-[![GoDoc](https://godoc.org/github.com/username/repository?status.svg)](https://godoc.org/github.com/xEmkayx/steam-api)
+<!-- [![Build Status](https://travis-ci.com/xEmkayx/steam-api.svg?branch=main)](https://travis-ci.com/xEmkayx/steam-api) -->
+[![Coverage Status](https://coveralls.io/repos/github/xEmkayx/steam-api/badge.svg?branch=main)](https://coveralls.io/github/xEmkayx/steam-api?branch=main)
+[![Go Report Card](https://goreportcard.com/badge/github.com/xEmkayx/steam-api)](https://goreportcard.com/report/github.com/xEmkayx/steam-api)
+[![GoDoc](https://godoc.org/github.com/xEmkayx/steam-api?status.svg)](https://godoc.org/github.com/xEmkayx/steam-api)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This API aims to be the most comprehensive API for Steam in Go. It aims to provide all the endpoints found in https://steamapi.xpaw.me/
