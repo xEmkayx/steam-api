@@ -65,7 +65,6 @@ func (c Client) GetPlayerSummaries(params GetPlayerSummariesParams) (*model.Play
 
 	versUrlEndpoint := urlHelper.VersionedURLEndpoint{EndpointPath: GetPlayerSummariesEndpoint, Version: version}
 	url := urlHelper.RequestURLFormatter(ISteamUser, versUrlEndpoint, vals)
-	fmt.Println("Url:", url)
 
 	resp, err := c.getRequest(url)
 	if err != nil {
@@ -120,7 +119,6 @@ func (c Client) GetFriendList(params GetFriendListParams) (*model.FriendList, er
 
 	versUrlEndpoint := urlHelper.VersionedURLEndpoint{EndpointPath: GetFriendListEndpoint, Version: version}
 	url := urlHelper.RequestURLFormatter(ISteamUser, versUrlEndpoint, vals)
-	fmt.Println("Url:", url)
 
 	resp, err := c.getRequest(url)
 	if err != nil {

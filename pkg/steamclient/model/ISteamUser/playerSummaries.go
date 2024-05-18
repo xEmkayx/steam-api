@@ -5,7 +5,7 @@ type PlayerSummariesWrapper struct {
 }
 
 type PlayerSummaries struct {
-	PlayerSums []PlayerSummary `json:"players" xml:"player"`
+	PlayerSums []PlayerSummary `json:"players" xml:"players>player"`
 }
 
 // Player definiert die Struktur für einen Spieler.

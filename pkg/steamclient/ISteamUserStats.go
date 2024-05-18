@@ -95,8 +95,6 @@ func (c Client) GetGlobalAchievementPercentagesForApp(params GlobalAchievementPe
 	versUrlEndpoint := urlHelper.VersionedURLEndpoint{EndpointPath: GetGlobalAchievementPercentagesForAppEndpoint, Version: version}
 	url := urlHelper.RequestURLFormatter(ISteamUserStats, versUrlEndpoint, vals)
 
-	fmt.Println("Url:", url)
-
 	resp, err := c.getRequest(url)
 	if err != nil {
 		log.Fatal(err)
@@ -193,8 +191,6 @@ func (c Client) GetNumberOfCurrentPlayers(params NumberOfCurrentPlayersParams) (
 	versUrlEndpoint := urlHelper.VersionedURLEndpoint{EndpointPath: GetNumberOfCurrentPlayersEndpoint, Version: version}
 	url := urlHelper.RequestURLFormatter(ISteamUserStats, versUrlEndpoint, vals)
 
-	fmt.Println("Url:", url)
-
 	resp, err := c.getRequest(url)
 	if err != nil {
 		log.Fatal(err)
@@ -253,8 +249,6 @@ func (c Client) GetPlayerAchievements(params PlayerAchievementsParams) (*model.P
 
 	versUrlEndpoint := urlHelper.VersionedURLEndpoint{EndpointPath: GetPlayerAchievementsEndpoint, Version: version}
 	url := urlHelper.RequestURLFormatter(ISteamUserStats, versUrlEndpoint, vals)
-
-	fmt.Println("Url:", url)
 
 	resp, err := c.getRequest(url)
 	if err != nil {
@@ -360,8 +354,6 @@ func (c Client) GetUserStatsForGame(params UserStatsForGameParams) (*model.UserS
 
 	versUrlEndpoint := urlHelper.VersionedURLEndpoint{EndpointPath: GetUserStatsForGameEndpoint, Version: version}
 	url := urlHelper.RequestURLFormatter(ISteamUserStats, versUrlEndpoint, vals)
-
-	fmt.Println("Url:", url)
 
 	resp, err := c.getRequest(url)
 	if err != nil {

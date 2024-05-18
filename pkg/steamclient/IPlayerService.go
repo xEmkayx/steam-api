@@ -90,8 +90,6 @@ func (c Client) GetOwnedGames(params GetOwnedGamesParams) (*model.OwnedGames, er
 	versUrlEndpoint := urlHelper.VersionedURLEndpoint{EndpointPath: GetOwnedGamesEndpoint, Version: version}
 	url := urlHelper.RequestURLFormatter(IPlayerService, versUrlEndpoint, vals)
 
-	fmt.Println("URL:", url)
-
 	resp, err := c.getRequest(url)
 	if err != nil {
 		log.Fatal(err)
@@ -149,7 +147,6 @@ func (c Client) GetRecentlyPlayedGames(params GetRecentlyPlayedGamesParams) (*mo
 
 	versUrlEndpoint := urlHelper.VersionedURLEndpoint{EndpointPath: GetRecentlyPlayedGamesEndpoint, Version: version}
 	url := urlHelper.RequestURLFormatter(IPlayerService, versUrlEndpoint, vals)
-	fmt.Println("Url:", url)
 
 	resp, err := c.getRequest(url)
 	if err != nil {

@@ -54,7 +54,6 @@ func (c Client) GetNewsForApp(params GetNewsForAppParams) (*model.AppNews, error
 
 	versUrlEndpoint := urlHelper.VersionedURLEndpoint{EndpointPath: GetNewsForAppEndpoint, Version: version}
 	url := urlHelper.RequestURLFormatter(ISteamNews, versUrlEndpoint, vals)
-	fmt.Println("Url:", url)
 
 	resp, err := c.getRequest(url)
 	if err != nil {

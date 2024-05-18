@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Staticcheck](https://img.shields.io/badge/static%20check-passing-brightgreen) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/xEmkayx/steam-api)
+![GitHub Tag](https://img.shields.io/github/v/tag/xEmkayx/steam-api)
 
 ![Go Version](https://img.shields.io/github/go-mod/go-version/xEmkayx/steam-api)
 [![Go Report Card](https://goreportcard.com/badge/github.com/xEmkayx/steam-api)](https://goreportcard.com/report/github.com/xEmkayx/steam-api)
