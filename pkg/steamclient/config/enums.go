@@ -17,7 +17,7 @@ func (o OutputFormat) String() string {
 	case Vdf:
 		return "vdf"
 	default:
-		return "json"
+		return "unknown format"
 	}
 }
 

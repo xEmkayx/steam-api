@@ -5,9 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Staticcheck](https://img.shields.io/badge/static%20check-passing-brightgreen) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/xEmkayx/steam-api)
-![GitHub Tag](https://img.shields.io/github/v/tag/xEmkayx/steam-api)
 
 ![Go Version](https://img.shields.io/github/go-mod/go-version/xEmkayx/steam-api)
+![GitHub Tag](https://img.shields.io/github/v/tag/xEmkayx/steam-api)
 [![Go Report Card](https://goreportcard.com/badge/github.com/xEmkayx/steam-api)](https://goreportcard.com/report/github.com/xEmkayx/steam-api)
 [![Coverage Status](https://coveralls.io/repos/github/xEmkayx/steam-api/badge.svg?branch=master)](https://coveralls.io/github/xEmkayx/steam-api?branch=master)
 [![GoDoc](https://godoc.org/github.com/xEmkayx/steam-api?status.svg)](https://godoc.org/github.com/xEmkayx/steam-api)
