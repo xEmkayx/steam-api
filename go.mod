@@ -1,4 +1,4 @@
-module steam-api
+module github.com/xemkayx/steam-api
 
 go 1.22.2
 
