@@ -10,7 +10,7 @@
 ![GitHub Tag](https://img.shields.io/github/v/tag/xEmkayx/steam-api)
 [![Go Report Card](https://goreportcard.com/badge/github.com/xEmkayx/steam-api)](https://goreportcard.com/report/github.com/xEmkayx/steam-api)
 [![Coverage Status](https://coveralls.io/repos/github/xEmkayx/steam-api/badge.svg?branch=master)](https://coveralls.io/github/xEmkayx/steam-api?branch=master)
-[![GoDoc](https://godoc.org/github.com/xEmkayx/steam-api?status.svg)](https://godoc.org/github.com/xEmkayx/steam-api)
+[![GoDoc](https://godoc.org/github.com/xemkayx/steam-api?status.svg)](https://godoc.org/github.com/xemkayx/steam-api)
 
 
 This API aims to be the most comprehensive API for Steam in Go. It aims to provide all the endpoints found in https://steamapi.xpaw.me/
